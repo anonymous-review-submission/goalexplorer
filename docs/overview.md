@@ -1,26 +1,26 @@
 ---
 layout: default
-title: Markdown kitchen sink
-nav_order: 99
+title: Overview
+nav_order: 2
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# [](#header-1)Overview
 
-[Link to another page](another-page).
+![](../img/analysis_overview.png)
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+The high-level overview of <span style="font-variant:small-caps;">GoalExplorer</span> is presented in the figure above. It obtains two inputs: the APK file of the app and the target functionality of interest, which can be provided as an app activity, an API call, or a code statement.
 
-# [](#header-1)Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+In the first step, <span style="font-variant:small-caps;">GoalExplorer</span> statically constructs the Screen Transition Graph (STG) of the app in the STG Extractor component. It then maps the target(s) to (possibly multiple) nodes of the graph in the Target Detector. Finally, it uses the graph to guide the dynamic exploration to a reachable target node, starting with the one that has the shortest path from the initial screen in the Dynamic Explorer.
 
-## [](#header-2)Header 2
+## [](#header-2)API Methods
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+STG Extractor searches for specific API invocations when constructing the nodes and transitions.
+
+- For complete lists of API methods collected from [Android Developers](https://developer.android.com/), see:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[API Methods](apis/apimethods.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 
 ### [](#header-3)Header 3
 
@@ -121,10 +121,6 @@ end
 ### Small image
 
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### Definition lists can be used with HTML syntax.

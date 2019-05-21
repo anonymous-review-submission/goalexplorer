@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configuration
-nav_order: 2
+nav_order: 99
 ---
 
 # Configuration
@@ -60,8 +60,6 @@ addEvent(toggleDarkMode, 'click', function(){
   }
 })
 </script>
-
-See [Test]({{ site.baseurl }}{% link docs/index-test.md %}) for more information.
 
 ## Google Analytics
 

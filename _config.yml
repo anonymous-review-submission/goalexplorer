@@ -1,6 +1,18 @@
 remote_theme: pmarsceill/just-the-docs
 repository: anonymous-review-submission/goalexplorer.git
+title: GoalExplorer
+description: GoalExplorer is a tool that performs goal-driven exploration to trigger functionality of interest for Android apps.
+
+# Enable site search
 search_enabled: true
+
+# Aux links for the upper right navigation
 aux_links:
     "Download GoalExplorer":
       - "https://drive.google.com/open?id=1w6MXs5gPbX-lpl2SE1jYz_Xo1A40rY13"
+
+# Color scheme ("dark" or nil)
+color_scheme: nil
+
+plugins:
+  - jekyll-seo-tag

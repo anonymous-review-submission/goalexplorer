@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## GoalExplorer
 
-You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+GoalExplorer generates automated tests that directly triggers the functionality of interest. At the core of our solution is an accurate, statically-built model, called Screen Transition Graph (STG), of UI screens and transitions between these screens.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repo also contains the details of our empirical evaluation on 93 benchmark applications and 95 the most popular GooglePlay applications, with detailed app version, category, and size.
 
 ### Markdown
 

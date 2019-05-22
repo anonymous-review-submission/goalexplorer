@@ -33,7 +33,7 @@ The static analyzer depends on Soot and FlowDroid (for modeling Android lifecycl
 
 - [FlowDroid](https://github.com/secure-software-engineering/FlowDroid/) : FlowDroid Static Data Flow Tracker
 
-The dynamic explorer is built upon [Stoat]{https://github.com/tingsu/Stoat}, and it depends on Python, Ruby, Nokogiri, and UiAutomator:
+The dynamic explorer is built on top of [Stoat](https://github.com/tingsu/Stoat), and it depends on Python, Ruby, Nokogiri, and UiAutomator:
 
 - [Ruby](https://www.ruby-lang.org/en/) : 2.1
 

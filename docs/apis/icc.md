@@ -10,7 +10,6 @@ nav_order: 4
 
 Inter-component communication (ICC) methods are Android system methods that launches another Android component, e.g. another activity or service.
 ICC methods use either Intents or Unified Resource Identifiers (URIs) to identify the target component.
-{: .fs-6 .fw-300 }
 
 | Transition Type| APIs of Context class|
 |:------------------|:-----------------------------------|

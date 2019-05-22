@@ -76,6 +76,8 @@ export PATH=$PATH:${ANDROID_HOME}/build-tools/25.0.0:${ANDROID_HOME}/emulator:${
 
 You may also need to modify "Stoat/CONF.txt" to set the Stoat path.
 
+---
+
 ## Usage
 
 ### Generating GUI model of the app
@@ -83,16 +85,16 @@ You may also need to modify "Stoat/CONF.txt" to set the Stoat path.
 First generates the static UI model of the app (STG) using the command:
 
 ```yaml
-java -jar {JAR_PATH} ge [OPTIONS] [-cb <arg>] [-d] [-h] -i <arg> [-l
-         <arg>] [-o <arg>] [-s <arg>] [-t <arg>] [-v]
+java -jar {JAR_PATH} ge [OPTIONS] [-cb <arg>] [-d] [-h] -i <arg> 
+          [-l <arg>] [-o <arg>] [-s <arg>] [-t <arg>] [-v]
 ```
 
 #### Available Options
 
 
 ```yaml
-  usage: ge [OPTIONS] [-cb <arg>] [-cg <arg>] [-d] [-h] -i <arg> [-l
-         <arg>] [-o <arg>] [-s <arg>] [-t <arg>] [-v]
+  usage: ge [OPTIONS] [-cb <arg>] [-cg <arg>] [-d] [-h] -i <arg> 
+            [-l <arg>] [-o <arg>] [-s <arg>] [-t <arg>] [-v]
    -cb <arg>           the maximum number of callbacks modeled for each
                        component (default to 20)
    -d,--debug          debug mode (default disabled)
@@ -112,5 +114,6 @@ java -jar {JAR_PATH} ge [OPTIONS] [-cb <arg>] [-d] [-h] -i <arg> [-l
 Run the dynamic explorer with the generated STG as the input:
 
 ```yaml
-ruby run_stoat_testing.rb --app_dir /home/XX/Bites.apk --avd_name testAVD_1 --avd_port 5554 --stoat_port 2000 --model /path/to/model
+ruby run_stoat_testing.rb --app_dir /home/XX/Bites.apk --avd_name testAVD_1 
+--avd_port 5554 --stoat_port 2000 --model /path/to/model
 ```

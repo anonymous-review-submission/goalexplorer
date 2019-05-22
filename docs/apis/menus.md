@@ -9,7 +9,6 @@ nav_order: 2
 {: .no_toc }
 
 Menu/drawer/dialog initiation methods are Android system methods that show menu/drawer/dialog on the screen:
-{: .fs-6 .fw-300 }
 
 
 | Transition Type| APIs|

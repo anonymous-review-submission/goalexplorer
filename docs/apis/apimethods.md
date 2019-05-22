@@ -9,5 +9,7 @@ permalink: docs/apis
 # API Methods
 {: .no_toc }
 
-CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size.
-{: .fs-6 .fw-300 }
+The basic analysis of both Screen Builder and Inter-Component Analyzer involves scanning the reachable methods from lifecycle methods and/or callback methods of each activity/fragment in the call graph, to identify fragment transaction methods, menu/drawer/dialog creation methods, or inter-component communication methods.
+
+
+This page provides a list of these methods collected from [Android Developers](https://developer.android.com/).

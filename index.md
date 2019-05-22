@@ -6,8 +6,8 @@ description: "GoalExplorer is a tool that performs goal-driven exploration to tr
 permalink: /
 ---
 
-# <span style="font-variant:small-caps;">GoalExplorer</span>
-{: .fs-9 }
+<!-- <img src="../img/logo.png" width="262> -->
+![](../img/logo.png){:height="50%"}
 
 Goal-driven Exploration for Android Apps.
 {: .fs-6 .fw-300 }

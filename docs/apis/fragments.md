@@ -7,11 +7,12 @@ nav_order: 1
 
 # Fragment Transactions
 
-Fragment transaction methods are methods that add, remove, or replace fragments.
+Fragment transaction methods are methods that add, remove, or replace fragments:
+{: .fs-6 .fw-300 }
 
 {: .m-}
 
-## Table of FragmentTransaction Methods
+<!-- ## Table of FragmentTransaction Methods -->
 
 |Transition Type|APIs of FragmentTransaction Class|
 |:------------|:--------------------|

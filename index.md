@@ -7,7 +7,7 @@ permalink: /
 ---
 
 <!-- <img src="../img/logo.png" width="262> -->
-![](../img/logo.png){:height="50%"}
+![](../img/logo.png)
 
 Goal-driven Exploration for Android Apps.
 {: .fs-6 .fw-300 }

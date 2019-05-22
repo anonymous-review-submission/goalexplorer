@@ -1,5 +1,5 @@
 remote_theme: pmarsceill/just-the-docs
-repository: anonymous-review-submission/goalexplorer.git
+# repository: anonymous-review-submission/goalexplorer.git
 title: GoalExplorer
 description: GoalExplorer is a tool that performs goal-driven exploration to trigger functionality of interest for Android apps.
 
